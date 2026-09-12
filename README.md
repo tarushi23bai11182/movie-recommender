@@ -1,15 +1,20 @@
 # Movie Recommendation Engine
 
-The Movie Recommendation Engine is a content-based web application that suggests movies to users based on item attributes (such as genres, tags, or plot descriptions). Built using Python, Pandas, Scikit-Learn, and Streamlit, it converts unstructured textual movie metadata into mathematical vectors and uses similarity metrics to recommend titles closely related to a user's selection.
+# Movie Recommendation Engine
 
-Core Architecture & Data Pipeline
+The Movie Recommendation Engine is a content-based web application that suggests movies to users based on item attributes (such as genres, tags, or plot descriptions). Built using **Python**, **Pandas**, **Scikit-Learn**, and **Streamlit**, it converts unstructured textual movie metadata into mathematical vectors and uses similarity metrics to recommend titles closely related to a user's selection.
+
+---
+
+## 🏗️ Core Architecture & Data Pipeline
+
 The system operates across a 4-stage pipeline:
-Plaintext
+
+```text
 [ Raw CSV Data ] ➡️ [ Data Preprocessing ] ➡️ [ Feature Extraction (TF-IDF) ]
                                                             │
                                                             ▼
 [ Streamlit Web UI ] ⬅️ [ Top-N Ranking ] ⬅️ [ Cosine Similarity Matrix ]
-
 
 1.Data Ingestion & Preprocessing
 	Dataset: movielens_100k.csv contains movie metadata including unique identifiers, titles, and content attributes (genres/tags).
