@@ -43,11 +43,12 @@ Score = 0.0: No similarity (completely distinct attributes).
 ```bash
 pip install -r requirements.txt
 
+2. **Run the Streamlit app:**
+bash
 streamlit run app.py
 
-### THE FINAL OUTPUT
 
-![Movie Recommendation Engine Interface](screenshot.png.png)
+
 
 
 
