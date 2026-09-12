@@ -37,23 +37,20 @@ Score = 1.0: Perfect similarity (identical content features).
 
 Score = 0.0: No similarity (completely distinct attributes).
 
- How to Run Locally
-Clone the repository:
+ ## ⚙️ How to Run Locally
 
-Bash
-git clone [https://github.com/tarushi23bai11182/movie-recommender.git](https://github.com/tarushi23bai11182/movie-recommender.git)
-Install dependencies:
-
-Bash
+1. **Install dependencies:**
+```bash
 pip install -r requirements.txt
-Run the Streamlit app:
 
-Bash
 streamlit run app.py
 
 ### THE FINAL OUTPUT
 
 ![Movie Recommendation Engine Interface](screenshot.png.png)
+
+
+
 
 
 
