@@ -53,7 +53,8 @@ streamlit run app.py
 
 ### THE FINAL OUTPUT
 
-![Movie Recommendation Engine Interface](app_screenshot.png)
+![Movie Recommendation Engine Interface](screenshot.png.png)
+
 
 
 
